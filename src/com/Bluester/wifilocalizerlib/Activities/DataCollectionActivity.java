@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import android.content.BroadcastReceiver;
 import android.graphics.Color;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.PP.wifilocalizerlibrary.R;
+import com.Bluester.wifilocalizerlibrary.R;
 
 public class DataCollectionActivity extends BaseWifiActivity 
 	implements OnClickListener, OnItemSelectedListener {

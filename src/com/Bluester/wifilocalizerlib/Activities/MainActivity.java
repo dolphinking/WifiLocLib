@@ -1,12 +1,14 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.widget.Toast;
 
-public class TestActivity extends LocateMeActivity {
+import com.Bluester.wifilocalizerlib.Activities.*; 
 
+public class MainActivity extends LocateMeActivity {
+ 
 	@Override
 	public void onLocationChanged(String location) {
 		
@@ -20,6 +22,7 @@ public class TestActivity extends LocateMeActivity {
         this.locateMe();
 	}
 	
+	
    @Override
    public void onCreate(Bundle savedInstanceState) {
 	   
@@ -29,8 +32,14 @@ public class TestActivity extends LocateMeActivity {
 	    //super
         super.onCreate(savedInstanceState);
         
+        // ModelBuildingActivity by button
+        
+        // WifiLocalizerPrefActivity  by button
+        
+        // DataCollectionReciever by button
+       
+        
         //start first locate me
-        this.locateMe();
-
+        this.locateMe();														
    }
 }

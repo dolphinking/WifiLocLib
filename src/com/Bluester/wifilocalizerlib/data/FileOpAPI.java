@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.data;
+package com.Bluester.wifilocalizerlib.data;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,12 +15,12 @@ import java.util.List;
 import android.annotation.SuppressLint;
 import android.os.Environment;
 
-import com.PP.wifilocalizerlib.math.Model;
+import com.Bluester.wifilocalizerlib.math.Model;
 
 public class FileOpAPI {
 	
 	//global storage path
-	public static final String SAVE_PATH_DIR = "/Android/data/com.TandonRobots.wifilocalizerlib/files/";
+	public static final String SAVE_PATH_DIR = "/Android/data/com.Bluester.wifilocalizerlib/files/";
 	public static final String SAVE_PATH = Environment.getExternalStoragePublicDirectory(SAVE_PATH_DIR).getPath() + "/";
 	
 	//files

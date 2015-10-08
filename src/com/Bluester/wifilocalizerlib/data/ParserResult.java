@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.data;
+package com.Bluester.wifilocalizerlib.data;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.math;
+package com.Bluester.wifilocalizerlib.math;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.PP.wifilocalizerlib.data.ParserResult;
+import com.Bluester.wifilocalizerlib.data.ParserResult;
 
 public class Model implements Serializable {
 

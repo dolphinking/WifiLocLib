@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.data;
+package com.Bluester.wifilocalizerlib.data;
 
 import java.util.HashMap;
 import java.util.List;
@@ -19,7 +19,7 @@ public class Parser {
 		//figure out number of readings
 		String lastReading = fileLines.get(fileLines.size()-1);
 		String[] toks = lastReading.split(FILE_SEP);
-		int numReadings = Integer.parseInt(toks[2]);
+		int numReadings = Integer.parseInt(toks[2]) + 1;
 		
 		//figure out set of APs and set of locations
 		Map<String,Integer> apMap = new HashMap<String,Integer>();
@@ -57,10 +57,11 @@ public class Parser {
 			int idOfAP = apMap.get(apName);
 			double rssiValue = Double.parseDouble(toks[1]);
 			
+			
 			//store
-			rssi[readingNumber-1][idOfAP] = rssiValue;
-			locs[readingNumber-1] = loc;
-			locIDs[readingNumber-1] = locMap.get(loc);
+			rssi[readingNumber][idOfAP] = rssiValue;  //have changed
+			locs[readingNumber] = loc;
+			locIDs[readingNumber] = locMap.get(loc);
 		}
 				
 		//return

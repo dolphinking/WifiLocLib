@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.math;
+package com.Bluester.wifilocalizerlib.math;
 
 public class StatPair {
 	

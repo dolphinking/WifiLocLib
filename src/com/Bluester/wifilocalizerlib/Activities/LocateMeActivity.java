@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.PP.wifilocalizerlib.data.FileOpAPI;
-import com.PP.wifilocalizerlib.math.Model;
-import com.PP.wifilocalizerlibrary.R;
+import com.Bluester.wifilocalizerlib.data.FileOpAPI;
+import com.Bluester.wifilocalizerlib.math.Model;
+import com.Bluester.wifilocalizerlibrary.R;
 
 public abstract class LocateMeActivity extends BaseWifiActivity {
 	

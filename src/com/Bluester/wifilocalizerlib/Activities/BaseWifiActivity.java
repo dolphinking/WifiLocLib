@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -7,7 +7,7 @@ import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 
-import com.PP.wifilocalizerlib.data.FileOpAPI;
+import com.Bluester.wifilocalizerlib.data.FileOpAPI;
 
 public abstract class BaseWifiActivity extends Activity {
 	

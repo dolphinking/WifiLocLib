@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.math;
+package com.Bluester.wifilocalizerlib.math;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import android.net.wifi.ScanResult;
 
-import com.PP.wifilocalizerlib.data.ParserResult;
+import com.Bluester.wifilocalizerlib.data.ParserResult;
 
 
 public class MathUtil {

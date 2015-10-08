@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import android.preference.PreferenceManager;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import com.PP.wifilocalizerlib.data.FileOpAPI;
-import com.PP.wifilocalizerlib.data.Parser;
+import com.Bluester.wifilocalizerlib.data.FileOpAPI;
+import com.Bluester.wifilocalizerlib.data.Parser;
 
 public class DataCollectionReceiver extends BroadcastReceiver {
   

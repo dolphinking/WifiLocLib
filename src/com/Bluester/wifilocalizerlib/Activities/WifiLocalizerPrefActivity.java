@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,8 +8,8 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 
-import com.PP.wifilocalizerlib.dialog.VoiceActionsDialog;
-import com.PP.wifilocalizerlibrary.R;
+import com.Bluester.wifilocalizerlib.dialog.VoiceActionsDialog;
+import com.Bluester.wifilocalizerlibrary.R;
 
 
 public class WifiLocalizerPrefActivity extends PreferenceActivity {

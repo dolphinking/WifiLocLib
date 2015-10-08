@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import android.net.wifi.ScanResult;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import com.PP.wifilocalizerlib.math.MathUtil;
+import com.Bluester.wifilocalizerlib.math.MathUtil;
 
 public class LocateMeReceiver extends BroadcastReceiver {
 

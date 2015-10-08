@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.dialog;
+package com.Bluester.wifilocalizerlib.dialog;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -6,8 +6,8 @@ import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.PP.wifilocalizerlib.data.FileOpAPI;
-import com.PP.wifilocalizerlibrary.R;
+import com.Bluester.wifilocalizerlib.data.FileOpAPI;
+import com.Bluester.wifilocalizerlibrary.R;
 
 public class VoiceActionsDialog extends DialogFragment {
 			

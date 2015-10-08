@@ -1,4 +1,4 @@
-package com.PP.wifilocalizerlib.Activities;
+package com.Bluester.wifilocalizerlib.Activities;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -7,6 +7,7 @@ import java.util.Map;
 
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -23,12 +24,12 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.PP.wifilocalizerlib.data.FileOpAPI;
-import com.PP.wifilocalizerlib.data.Parser;
-import com.PP.wifilocalizerlib.data.ParserResult;
-import com.PP.wifilocalizerlib.math.MathUtil;
-import com.PP.wifilocalizerlib.math.Model;
-import com.PP.wifilocalizerlib.math.StatPair;
+import com.Bluester.wifilocalizerlib.data.FileOpAPI;
+import com.Bluester.wifilocalizerlib.data.Parser;
+import com.Bluester.wifilocalizerlib.data.ParserResult;
+import com.Bluester.wifilocalizerlib.math.MathUtil;
+import com.Bluester.wifilocalizerlib.math.Model;
+import com.Bluester.wifilocalizerlib.math.StatPair;
 
 public class ModelBuildingActivity extends Activity {
 	

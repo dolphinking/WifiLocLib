@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WifiLocalizerLibrary</string>
+    <string name="app_name">BluesterWifiLocalizer</string>
     <string name="DataCollectionLabel">Data Collection</string>
     <string name="ModelBuildingLabel">Build Model</string>
     <string name="numberOfReadingsPrompt">Choose Number of Readings Per Click</string>
